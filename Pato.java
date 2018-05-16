@@ -11,9 +11,11 @@ public class Pato extends Ave
 
     /**
      * Constructor de objetos de la clase Pato
+     * 
+     * @param   modificadoGeneticamente  Indica si el objeto Ave ha sido modificado geneticamente al nacer.
      */
-    public Pato()
+    public Pato(boolean modificadoGeneticamente)
     {
-        super(PESO_INICIAL_PATO,SONIDO_PATO);
+        super(PESO_INICIAL_PATO,SONIDO_PATO,modificadoGeneticamente);
     }
 }

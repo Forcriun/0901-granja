@@ -12,10 +12,12 @@ public class Vaca extends Mamifero implements Vacunable
 
     /**
      * Constructor de objetos de la clase Vaca
+     * 
+     * @param   calidadRaza              La calidad de la raza del objeto Mamifero.
      */
-    public Vaca()
+    public Vaca(int calidadRaza)
     {
-        super(PESO_INICIAL_VACA,SONIDO_VACA);
+        super(PESO_INICIAL_VACA,SONIDO_VACA,calidadRaza);
     }
 
     /**

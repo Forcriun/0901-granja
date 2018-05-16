@@ -18,7 +18,6 @@ public class GranjaTest
     private Cerdo cerdo1;
     private Vaca vaca1;
 
-    
     /**
      * Default constructor for test class GranjaTest
      */
@@ -35,10 +34,10 @@ public class GranjaTest
     public void setUp()
     {
         granja1 = new Granja();
-        pollo1 = new Pollo();
-        pato1 = new Pato();
-        cerdo1 = new Cerdo();
-        vaca1 = new Vaca();
+        pollo1 = new Pollo(true);
+        pato1 = new Pato(true);
+        cerdo1 = new Cerdo(8);
+        vaca1 = new Vaca(3);
         granja1.alimentar(pollo1);
         granja1.alimentar(pato1);
         granja1.alimentar(cerdo1);

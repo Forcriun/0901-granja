@@ -12,10 +12,12 @@ public class Cerdo extends Mamifero implements Vacunable
 
     /**
      * Constructor de objetos de la clase Cerdo
+     * 
+     * @param   calidadRaza              La calidad de la raza del objeto Mamifero.
      */
-    public Cerdo()
+    public Cerdo(int calidadRaza)
     {
-        super(PESO_INICIAL_CERDO,SONIDO_CERDO);
+        super(PESO_INICIAL_CERDO,SONIDO_CERDO,calidadRaza);
     }
 
     /**

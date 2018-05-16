@@ -12,10 +12,12 @@ public class Pollo extends Ave implements Vacunable
 
     /**
      * Constructor de objetos de la clase Pollo
+     * 
+     * @param   modificadoGeneticamente  Indica si el objeto Ave ha sido modificado geneticamente al nacer.
      */
-    public Pollo()
+    public Pollo(boolean modificadoGeneticamente)
     {
-        super(PESO_INICIAL_POLLO,SONIDO_POLLO);
+        super(PESO_INICIAL_POLLO,SONIDO_POLLO,modificadoGeneticamente);
     }
 
     /**
